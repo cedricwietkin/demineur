@@ -17,35 +17,26 @@ body{
     width: 400px;
     background-color: gray;
   }
-  
-  .row {
+.row {
     display: flex;
     border: 3px dotted black;
     border-left: none;  
   }
-  
-  .cell {
+.cell{  
     width: 50px;
     height: 50px;
     border-right: 3px dotted black;
-  }
-  .cach{
-    width: 50px;
-    height: 50px;
-    border: 1px solid #000;
-    background-color: red;
-  }
-  .bomb {
+  }  
+.bomb {
     background-image: url('images/bomb.gif'); /* Remplacez "bomb.png" par le chemin de votre image de bombe */
     background-size: cover;
     /* Ajoutez d'autres styles pour l'apparence de la case avec une bombe */
   }
- .two{
+.two{
     display: flex;
     justify-content: center;
     color:red;
-    font-size: 20px ;
-       
+    font-size: 20px ;    
 }
 .numberone{
     background-image: url('images/1-1.png');
@@ -64,12 +55,7 @@ body{
     border: 5px  groove grey;
     box-shadow: 0 0 5px rgba(0, 0, 2, 5);
   }
-  .cube:hover{
+.cube:hover{
     display: none;
   }
-  .content{
-    display: flex;
-    width: 50px;
-    height: 50px;
-    border: 1px solid red;
-  }
+ 
