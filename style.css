@@ -55,7 +55,7 @@ body{
     border: 5px  groove grey;
     box-shadow: 0 0 5px rgba(0, 0, 2, 5);
   }
-.cube:target{
+.cube:hover{
     display: none;
   }
  
